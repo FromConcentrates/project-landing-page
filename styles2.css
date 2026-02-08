@@ -100,3 +100,24 @@ a {
 #info-text {
     padding-top: 30px;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 200px;
+}
+
+#quote {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    border: 2px solid blue;
+}
+
+#quote-caption {
+    border: 2px solid red;
+    text-align: right;
+
+}
