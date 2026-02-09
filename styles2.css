@@ -75,6 +75,11 @@ a {
     align-self: center;
     padding: 10px 30px;
     border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-weight: 700;
+
 }
 
 /* Info Section */
@@ -85,6 +90,10 @@ a {
     align-items: center;
     min-height: 300px;
     
+}
+
+img {
+    border-radius: 5px
 }
 
 #info-images {
@@ -103,6 +112,8 @@ a {
     width: 200px;
     
 }
+
+/* Quote Section */
 
 .quote-container {
     display: flex;
@@ -125,32 +136,38 @@ a {
 
 }
 
+/* Call to Action Section */
+
 .call {
     display: flex;
     height: 200px;
     justify-content: center;
-    align-items: center;  
-    border: 2px solid blue;
+    align-items: center; 
 }
 
 .call-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
+    background-color: #3882F6;
+    color: white;
     width: 650px;
     height: 150px;
-}
-.call-card {
-    border: 2px solid purple;
-    width: 400px;
+    border-radius: 5px;
+    gap: 10px;
 }
 
-.button-container {
-    border: 2px solid red;
-    width: 200px;
+#call-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
+
+/* Footer */
 
 .footer {
     background-color: #1F2937;
