@@ -99,6 +99,11 @@ a {
     padding-top: 30px;
 }
 
+.box {
+    width: 200px;
+    
+}
+
 .quote-container {
     display: flex;
     justify-content: center;
@@ -130,7 +135,7 @@ a {
 
 .call-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border: 2px solid red;
     width: 650px;
@@ -139,6 +144,11 @@ a {
 .call-card {
     border: 2px solid purple;
     width: 400px;
+}
+
+.button-container {
+    border: 2px solid red;
+    width: 200px;
 }
 
 
