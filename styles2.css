@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
 }
 
@@ -121,18 +121,21 @@ img {
     align-items: center;
     background-color: #E5E7EB;
     height: 200px;
+    
 }
 
 #quote {
     display: flex;
     justify-content: center;
-    width: 450px;
-    border: 2px solid blue;
+    width: 475px;
+    font-style: italic;
+    font-size: 20px;
 }
 
 #quote-caption {
-    border: 2px solid red;
     text-align: right;
+    font-weight: bold;
+    padding: 5px;
 
 }
 
