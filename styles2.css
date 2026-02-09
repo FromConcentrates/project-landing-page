@@ -60,6 +60,7 @@ a {
     justify-content: center;
     width: 400px;
     min-height: 150px;
+    gap: 8px;
 }
 
 .hero-right {
@@ -79,6 +80,7 @@ a {
     color: white;
     border: none;
     font-weight: 700;
+    font-size: 15px;
 
 }
 
@@ -168,6 +170,7 @@ img {
     padding: 5px 15px;
     border-radius: 5px;
     font-weight: 700;
+    font-size: 15px;
 }
 
 
