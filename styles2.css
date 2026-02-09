@@ -18,20 +18,47 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+img {
+    border-radius: 5px
+}
+
+/* Colors */
+
+.footer, .call-container, .hero-title, .header, button {
+    color: white;
+}
+
+a, .grey-text {
     color: #E5E7EB;
 }
 
-.grey-text {
-   color: #E5E7EB; 
+.header, .hero, .footer {
+   background-color: #1F2937; 
 }
+
+.hero-right, .quote-container {
+    background-color: #E5E7EB;
+}
+
+.call-container, button {
+    background-color: #3882F6;
+}
+/* Hero Section */
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    background-color: #1F2937;
-    color: white;
     
 }
 
@@ -42,65 +69,54 @@ a {
 
 /* Hero section */
 
-.hero {
+.hero, .hero-left, .hero-right {
     display: flex;
+}
+
+.hero, .hero-left {
     justify-content: center;
+}
+
+.hero {
     align-items: center;
-    background-color: #1F2937;
     min-height: 300px;
 }
 
-.hero-title {
-    color: white;
-}
 
 .hero-left {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 400px;
     min-height: 150px;
     gap: 8px;
 }
 
 .hero-right {
-    display: flex;
+    justify-content: center;
     min-height: 150px;
     width: 400px;
-    justify-content: center;
     align-items: center;
-    background-color: rgb(193, 193, 193)
 }
 
 #hero-button {
     align-self: center;
     padding: 10px 30px;
-    border-radius: 5px;
-    background-color: #3882F6;
-    color: white;
     border: none;
-    font-weight: 700;
-    font-size: 15px;
-
 }
 
 /* Info Section */
 
-.info {
+.info, #info-images {
     display: flex;
-    flex-direction: column;
     align-items: center;
+}
+
+.info {
+    flex-direction: column;
     min-height: 300px;
     
 }
 
-img {
-    border-radius: 5px
-}
-
 #info-images {
-    display: flex;
-    align-items: center;
     text-align: center;
     padding: 30px;
 
@@ -117,18 +133,18 @@ img {
 
 /* Quote Section */
 
-.quote-container {
+.quote-container, #quote {
     display: flex;
     justify-content: center;
+}
+
+.quote-container {
     align-items: center;
-    background-color: #E5E7EB;
     height: 200px;
     
 }
 
 #quote {
-    display: flex;
-    justify-content: center;
     width: 475px;
     font-style: italic;
     font-size: 20px;
@@ -154,8 +170,6 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882F6;
-    color: white;
     width: 800px;
     height: 120px;
     border-radius: 5px;
@@ -164,21 +178,14 @@ img {
 }
 
 #call-button {
-    background-color: #3882F6;
     border: 2px solid white;
-    color: white;
     padding: 5px 15px;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 15px;
 }
 
 
 /* Footer */
 
 .footer {
-    background-color: #1F2937;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
