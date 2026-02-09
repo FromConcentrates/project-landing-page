@@ -120,6 +120,28 @@ a {
 
 }
 
+.call {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;  
+    border: 2px solid blue;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 650px;
+    height: 150px;
+}
+.call-card {
+    border: 2px solid purple;
+    width: 400px;
+}
+
+
 .footer {
     background-color: #1F2937;
     color: white;
